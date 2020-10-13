@@ -25,8 +25,8 @@ SECRET_KEY = 'wo$b(smj6a(h7)(!br!mbn!w!=#g*l=7kqw#c!a(k5ove8p3tx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-""" ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com'] """
+""" ALLOWED_HOSTS = [] """
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -121,3 +121,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
